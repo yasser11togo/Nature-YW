@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Beauty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 40px;
+        }
+        article img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        article img:hover {
+            transform: scale(1.05);
+        }
+        h2 {
+            color: #4caf50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+        .audio-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact-container {
+            margin-top: 20px;
+        }
+        .mobile-access {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .mobile-access a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .mobile-access a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nature's Beauty</h1>
+        <p>Exploring the wonders of the natural world</p>
+    </header>
+    
+    <div class="container">
+        <article>
+            <h2>The Majesty of Mountains</h2>
+            <img src="https://1.img-dpreview.com/files/p/TS1200x900~sample_galleries/7711048608/3220571409.jpg" alt="Mountain">
+            <p>Mountains are not just picturesque landscapes; they play a crucial role in the environment. They act as natural water towers, storing snow and ice that melts into rivers, providing fresh water for millions of people. The unique ecosystems found on mountains, from lush forests at their bases to barren, windswept peaks, support a diverse range of flora and fauna, some of which are found nowhere else on Earth.</p>
+        </article>
+        
+        <article>
+            <h2>The Tranquility of Forests</h2>
+            <img src="https://3.img-dpreview.com/files/p/TS1200x900~sample_galleries/5930710153/8478988490.jpg" alt="Forest">
+            <p>Forests are vital ecosystems that cover about 31% of the Earth's land area. They are home to a vast array of plant and animal species, making them some of the most biodiverse environments on the planet. Forests provide essential resources, such as timber, medicine, and food, and they play a crucial role in regulating the global climate by absorbing carbon dioxide and releasing oxygen.</p>
+        </article>
+        
+        <article>
+            <h2>The Beauty of Beaches</h2>
+            <img src="https://2.img-dpreview.com/files/p/TS1200x900~sample_galleries/5930710153/9699045848.jpg" alt="Beach">
+            <p>Beaches are dynamic coastal environments where the land meets the sea, offering a unique blend of natural beauty and recreational opportunities. They are formed by the accumulation of sand, gravel, or pebbles along the shoreline, shaped by the constant motion of waves, tides, and currents. Beaches can be found on the edges of oceans, seas, lakes, and rivers, each with its distinct characteristics and charm.</p>
+        </article>
+
+        <div class="audio-container">
+            <h3>Relax with Nature Sounds</h3>
+            <audio controls>
+                <source src="file:///C:/Users/Mouad/Downloads/light-rain-109591.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="contact-container">
+            <h3>Contact Me</h3>
+            <p>Feel free to reach out if you have any questions or if you'd like to connect!</p>
+            <p><strong>Phone:</strong> <a href="tel:+212611386412">++212611386412</a></p>
+            <p><strong>Email:</strong> <a href="mailto:yelmansari6@gmail.com">yelmansari6@gmail.com</a></p>
+        </div>
+
+        <div class="mobile-access">
+            <h3>Access My Website</h3>
+            <a href="https://www.yourwebsite.com" target="_blank">Visit My Website</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Follow me on Instagram: <a href="https://www.instagram.com/yvvsser_" target="_blank">@yvvsser_</a></p>
+    </footer>
+
+    <script>
+        // Example JavaScript: Alert when image is clicked
+        document.querySelectorAll('article img').forEach(img => {
+            img.addEventListener('click', () => {
+                alert('This is a beautiful nature image!');
+            });
+        });
+    </script>
+</body>
+</html>
